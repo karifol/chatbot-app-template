@@ -1,1 +1,1 @@
-curl -X GET -d "{\"user_input\":\"hllo world\"}" your-api-gateway-endpoint | jq .
+curl -X GET -d "{\"user_input\":\"hllo world\"}" -H "x-api-key: your-api-key" your-api-endpoint | jq .

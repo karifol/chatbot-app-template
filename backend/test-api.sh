@@ -1,0 +1,1 @@
+curl -X GET -d "{\"user_input\":\"hllo world\"}" your-api-gateway-endpoint | jq .
